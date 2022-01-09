@@ -1,0 +1,18 @@
+/* .crop-home {
+    position: relative;
+} */
+
+.crop_home_body {
+    position: relative;
+    width: 92%;
+    top: -55px;
+    margin: 0 30px;
+}
+
+.crop_home_item_title {
+    margin-left: 24px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #323438;
+}
+

@@ -1,0 +1,34 @@
+
+.crop_home_more_item {
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.crop_home_item_body {
+    display: grid;
+    grid-template-columns: repeat(4, 25.0%);
+    grid-auto-flow: row;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.crop_home_more_item_subitem {
+    width: 100%;
+    text-align:center;
+    position: relative;
+}
+
+.crop_home_more_item_subitem_title {
+    display: -webkit-box;
+    color: #323438;
+    font-size: 26px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    overflow: hidden;
+    margin: auto;
+}

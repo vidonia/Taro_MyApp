@@ -1,0 +1,32 @@
+
+.crop_home_center_item {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.crop_home_center_item_subitem {
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    width: 33.3333%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crop_home_center_item_subitem_title {
+    color: #323438;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.crop_home_center_item_subitem_subtitle {
+    margin-top: 4px;
+    color: #A1A7B3;
+    font-size: 24px;
+    font-weight: normal;
+}

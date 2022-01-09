@@ -1,0 +1,27 @@
+.crop_home_bottom_item {
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.crop_home_bottom_item_content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-flow: row;
+    margin: 30px 20px 0 0;
+}
+
+.crop_home_bottom_item_subitem {
+    border: 1px solid #EBEDF0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.crop_home_bottom_item_subitem_icon {
+    margin-right: 18px;
+}
