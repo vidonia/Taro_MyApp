@@ -22,7 +22,7 @@ export default function CropFunctionTag(props) {
         content = '推荐使用';
         color = '#FF7518'
     }
-    const width = content.length * 10;
+    const width = content.length * 12;
     return (
         <View className='crop_item_tag' style={{background: color, top: top, left: '50%', width: width}}>
             {content}
